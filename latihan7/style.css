@@ -1,0 +1,18 @@
+.container {
+
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+
+	/* jika text lebih sedikit di bandingkan gambarnya maka harus di kasih "oveflow:auto; 
+	supaya gambarnya di anggap lagi .
+	cara membersihkan /menghentikan float yaitu "clear"
+	valuenya : left,right,both.*/
+}
+
+img {
+	
+	float: left;
+	margin: auto;
+}
